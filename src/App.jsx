@@ -8,6 +8,9 @@ import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Certifications from './sections/Certifications';
 import Contact from './sections/Contact';
+import profileImg from "./assets/profile.jpg"
+
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(true); // Default to dark mode for a modern look
@@ -27,7 +30,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 font-sans text-slate-900 dark:text-slate-100 selection:bg-brand selection:text-white transition-colors duration-300">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      
+
       <main>
         <Hero />
         <About />

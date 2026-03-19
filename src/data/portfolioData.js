@@ -4,6 +4,8 @@ import { FaJava, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, FaLinkedin } f
 import { SiSpringboot, SiHibernate, SiMysql, SiPostman, SiJavascript, SiTailwindcss, SiBootstrap } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
+import profileImg from '../assets/profile.jpg';
+
 export const personalInfo = {
   name: "Mahendhar Kalyanapu",
   role: "Java Full Stack Developer",
@@ -12,10 +14,8 @@ export const personalInfo = {
   email: "kalyanapumahendhar@gmail.com",
   github: "https://github.com/kmahendhar",
   linkedin: "https://www.linkedin.com/in/mahendhar-kalyanapu-a0b314339",
-  image: "/profile.jpg",
+  image: profileImg,
   summary: "Java Full Stack Developer with knowledge in React, Spring Boot, and MySQL. Looking for an opportunity to build scalable applications and grow in software development."
-
-
 };
 
 export const skills = {
